@@ -84,7 +84,7 @@ color: var(--logo-footer-color);
     margin-right: 0;
 }
 /* -----------Навигация-------------- */
- .header {
+ /* .header {
     display: flex;
     background-color: var(--bg-wight-color);
     padding-top: 24px;
@@ -159,7 +159,7 @@ background-color: var(--accent-color);
 position: absolute;
 left: 0;
 bottom: -32.5px;
-}
+} */
 /* -------------Hero----------------- */
   .hero {
    max-width: 1600px;
