@@ -1,0 +1,33 @@
+.about {
+    background-color: var(--bg-wight-color);
+} 
+
+ .about-list__title {
+    @include font(700, 14px, 1.14, 0.03em);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+ .about-list {
+    display: flex;
+}
+
+ .about-list__text {
+    @include font(null, 14px, 1.17, 0.03em);
+    color: var(--second-text-color);
+}
+.about-list__content{
+width: 270px;
+}
+.about-list__content:not(:last-child) {
+    margin-right: 30px;
+}
+.about-list__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    height: 120px;
+    background-color: var(--bg-grey-color);
+    border-radius: 4px;
+}

@@ -1,2 +1,23 @@
-@import "./layout/.header";
-@import "./layout/.hero";
+@import "./utils/vars";
+@import "./utils/hidden";
+@import "./utils/mixins";
+
+
+@import "./base/reset";
+@import "./base/common";
+
+@import "./components/container";
+@import "./components/title";
+@import "./components/modal";
+@import "./components/logo";
+
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/clients";
+@import "./layout/about";
+@import "./layout/img";
+@import "./layout/team";
+@import "./layout/footer";
+@import "./layout/portfolio-filter";
+@import "./layout/portfolio-works";
