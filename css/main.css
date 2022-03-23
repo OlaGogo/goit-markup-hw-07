@@ -39,6 +39,7 @@ p, h1, h2, h3, h4, h5, h6 {
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 img {
@@ -52,10 +53,6 @@ button {
 body {
   color: var(--main-text-color);
   font-family: "Roboto", sans-serif;
-}
-
-.list {
-  list-style: none;
 }
 
 a {
@@ -375,15 +372,15 @@ a {
   color: var(--logo-color);
 }
 
-.logo__header-top {
+.logo__header {
   margin-right: 93px;
 }
 
-.logo__header {
+.logo__dark {
   color: var(--logo-header-color);
 }
 
-.logo__footer {
+.logo__light {
   color: var(--logo-footer-color);
 }
 
